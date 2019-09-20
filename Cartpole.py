@@ -20,7 +20,8 @@ label = data['label']
 #blah blah
 #changed data to NewData
 test = 1.5
-n_training = 1500
+n_training = 5000
+#comment test
 n_test = 6000
 training_index = np.arange(n_training)
 test_index = np.arange(n_training, n_training + n_test)
